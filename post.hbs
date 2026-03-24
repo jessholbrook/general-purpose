@@ -1,0 +1,15 @@
+{{!< default}}
+
+<main class="site-main">
+    <article class="post {{post_class}}">
+        <header class="post-header">
+            <h1 class="post-title">{{title}}</h1>
+            <time class="post-date" datetime="{{date format="YYYY-MM-DD"}}">
+                {{date format="MMMM D, YYYY"}}
+            </time>
+        </header>
+        <section class="post-content">
+            {{content}}
+        </section>
+    </article>
+</main>

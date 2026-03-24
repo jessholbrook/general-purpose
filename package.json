@@ -1,0 +1,35 @@
+{
+  "name": "general-purpose",
+  "description": "Jess Holbrook's personal site theme",
+  "version": "1.0.0",
+  "license": "MIT",
+  "author": {
+    "name": "Jess Holbrook"
+  },
+  "type": "module",
+  "engines": {
+    "ghost": ">=6.0.0"
+  },
+  "config": {
+    "posts_per_page": 15,
+    "image_sizes": {},
+    "card_assets": true
+  },
+  "scripts": {
+    "dev": "rollup -c --environment BUILD:development -w",
+    "build": "rollup -c --environment BUILD:production",
+    "zip": "npm run build && bestzip $npm_package_name.zip assets/ *.hbs partials/ package.json",
+    "test": "gscan .",
+    "pretest": "npm run build"
+  },
+  "devDependencies": {
+    "rollup": "^4.9.0",
+    "@rollup/plugin-node-resolve": "^15.2.0",
+    "rollup-plugin-postcss": "^4.0.2",
+    "rollup-plugin-livereload": "^2.0.5",
+    "@rollup/plugin-terser": "^0.4.4",
+    "postcss": "^8.4.32",
+    "postcss-preset-env": "^9.3.0",
+    "gscan": "^4.43.0"
+  }
+}
