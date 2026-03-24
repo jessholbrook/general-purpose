@@ -226,3 +226,68 @@ p {
 @page {
     margin: 0;
 }
+
+/* Dark Mode Overrides */
+[data-theme="dark"] {
+    --color-bg: #1C1917;
+    --color-text: #EDE8E3;
+    --color-accent: #C9705F;
+    --color-accent-hover: #D4826F;
+    --color-border: #3A3330;
+    --color-muted: #9E918A;
+}
+
+/* System preference fallback (no stored choice) */
+@media (prefers-color-scheme: dark) {
+    :root:not([data-theme="light"]) {
+        --color-bg: #1C1917;
+        --color-text: #EDE8E3;
+        --color-accent: #C9705F;
+        --color-accent-hover: #D4826F;
+        --color-border: #3A3330;
+        --color-muted: #9E918A;
+    }
+}
+
+/* Smooth transition on toggle (class added by JS, not on page load) */
+.theme-transition,
+.theme-transition *,
+.theme-transition *::before,
+.theme-transition *::after {
+    transition: background-color 200ms ease, color 200ms ease, border-color 200ms ease !important;
+}
+
+/* Theme toggle button */
+.theme-toggle {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    background: none;
+    border: none;
+    padding: var(--space-2);
+    color: var(--color-muted);
+    cursor: pointer;
+    transition: color 150ms ease;
+    margin-bottom: var(--space-3);
+}
+
+.theme-toggle:hover {
+    color: var(--color-text);
+}
+
+/* Icon visibility: light mode shows moon, dark mode shows sun */
+.theme-toggle .icon-sun {
+    display: none;
+}
+
+.theme-toggle .icon-moon {
+    display: inline;
+}
+
+[data-theme="dark"] .theme-toggle .icon-moon {
+    display: none;
+}
+
+[data-theme="dark"] .theme-toggle .icon-sun {
+    display: inline;
+}
