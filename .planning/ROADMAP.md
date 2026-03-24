@@ -29,7 +29,9 @@ Decimal phases appear between their surrounding integers in numeric order.
   3. All required Ghost helpers (`{{asset}}`, `{{body_class}}`, `{{post_class}}`, `{{ghost_head}}`, `{{ghost_foot}}`) are present in default.hbs
   4. The error page (error.hbs) renders correctly when a 404 or 500 occurs on the live site
   5. Asset paths use `{{asset}}` helper throughout — no hardcoded relative paths
-**Plans**: TBD
+**Plans:** 1 plan
+Plans:
+- [ ] 01-01-PLAN.md — Ghost theme scaffold, build validation, and deploy workflow
 
 ### Phase 2: Visual Identity
 **Goal**: The complete visual design system — palette, typography, spacing tokens, and responsive sidebar layout — is established in default.hbs, so every subsequent template inherits consistent styling without rework.
@@ -73,7 +75,7 @@ Phases execute in numeric order: 1 → 2 → 3 → 4
 
 | Phase | Plans Complete | Status | Completed |
 |-------|----------------|--------|-----------|
-| 1. Foundation | 0/TBD | Not started | - |
+| 1. Foundation | 0/1 | Planning | - |
 | 2. Visual Identity | 0/TBD | Not started | - |
 | 3. Homepage and Blog | 0/TBD | Not started | - |
 | 4. Section Pages and Polish | 0/TBD | Not started | - |
