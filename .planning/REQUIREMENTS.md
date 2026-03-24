@@ -9,8 +9,8 @@ Requirements for initial release. Each maps to roadmap phases.
 
 ### Foundation
 
-- [ ] **FOUND-01**: Valid Ghost 6 theme scaffold passing gscan validation
-- [ ] **FOUND-02**: One-command deploy automation to general-purpose.ghost.io
+- [x] **FOUND-01**: Valid Ghost 6 theme scaffold passing gscan validation
+- [x] **FOUND-02**: One-command deploy automation to general-purpose.ghost.io
 - [ ] **FOUND-03**: Sidebar navigation that collapses to mobile-friendly nav below breakpoint
 
 ### Visual Identity
@@ -43,8 +43,8 @@ Requirements for initial release. Each maps to roadmap phases.
 
 ### Infrastructure
 
-- [ ] **INFRA-01**: Proper asset paths via {{asset}} helper
-- [ ] **INFRA-02**: Error page (error.hbs)
+- [x] **INFRA-01**: Proper asset paths via {{asset}} helper
+- [x] **INFRA-02**: Error page (error.hbs)
 - [ ] **INFRA-03**: Active navigation state for current section
 
 ## v2 Requirements
@@ -74,10 +74,10 @@ Which phases cover which requirements. Updated during roadmap creation.
 
 | Requirement | Phase | Status |
 |-------------|-------|--------|
-| FOUND-01 | Phase 1 | Pending |
-| FOUND-02 | Phase 1 | Pending |
-| INFRA-01 | Phase 1 | Pending |
-| INFRA-02 | Phase 1 | Pending |
+| FOUND-01 | Phase 1 | Complete |
+| FOUND-02 | Phase 1 | Complete |
+| INFRA-01 | Phase 1 | Complete |
+| INFRA-02 | Phase 1 | Complete |
 | VIS-01 | Phase 2 | Pending |
 | VIS-02 | Phase 2 | Pending |
 | VIS-03 | Phase 2 | Pending |
