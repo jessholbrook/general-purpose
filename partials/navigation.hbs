@@ -1,0 +1,7 @@
+{{#if @site.navigation}}
+<nav class="site-nav" aria-label="Primary navigation">
+  {{#foreach navigation}}
+  <a class="nav-link {{#if current}}is-active{{/if}}" href="{{url}}">{{label}}</a>
+  {{/foreach}}
+</nav>
+{{/if}}
