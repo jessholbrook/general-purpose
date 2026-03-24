@@ -11,13 +11,13 @@ Requirements for initial release. Each maps to roadmap phases.
 
 - [x] **FOUND-01**: Valid Ghost 6 theme scaffold passing gscan validation
 - [x] **FOUND-02**: One-command deploy automation to general-purpose.ghost.io
-- [ ] **FOUND-03**: Sidebar navigation that collapses to mobile-friendly nav below breakpoint
+- [x] **FOUND-03**: Sidebar navigation that collapses to mobile-friendly nav below breakpoint
 
 ### Visual Identity
 
-- [ ] **VIS-01**: Warm color palette with cream/off-white background and terracotta accent color
-- [ ] **VIS-02**: CSS design tokens for palette, typography, and spacing
-- [ ] **VIS-03**: Custom serif web fonts for headings and body text
+- [x] **VIS-01**: Warm color palette with cream/off-white background and terracotta accent color
+- [x] **VIS-02**: CSS design tokens for palette, typography, and spacing
+- [x] **VIS-03**: Custom serif web fonts for headings and body text
 - [ ] **VIS-04**: Dark mode toggle with appropriate color scheme
 
 ### Homepage
@@ -78,11 +78,11 @@ Which phases cover which requirements. Updated during roadmap creation.
 | FOUND-02 | Phase 1 | Complete |
 | INFRA-01 | Phase 1 | Complete |
 | INFRA-02 | Phase 1 | Complete |
-| VIS-01 | Phase 2 | Pending |
-| VIS-02 | Phase 2 | Pending |
-| VIS-03 | Phase 2 | Pending |
+| VIS-01 | Phase 2 | Complete |
+| VIS-02 | Phase 2 | Complete |
+| VIS-03 | Phase 2 | Complete |
 | VIS-04 | Phase 2 | Pending |
-| FOUND-03 | Phase 2 | Pending |
+| FOUND-03 | Phase 2 | Complete |
 | HOME-01 | Phase 3 | Pending |
 | HOME-02 | Phase 3 | Pending |
 | BLOG-01 | Phase 3 | Pending |
