@@ -4,8 +4,12 @@
   "version": "1.0.0",
   "license": "MIT",
   "author": {
-    "name": "Jess Holbrook"
+    "name": "Jess Holbrook",
+    "email": "jess@jessholbrook.com"
   },
+  "keywords": [
+    "ghost-theme"
+  ],
   "type": "module",
   "engines": {
     "ghost": ">=6.0.0"

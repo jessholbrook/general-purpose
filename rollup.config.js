@@ -1,3 +1,4 @@
+import { resolve as resolvePath } from 'path';
 import resolve from '@rollup/plugin-node-resolve';
 import postcss from 'rollup-plugin-postcss';
 import livereload from 'rollup-plugin-livereload';
@@ -16,7 +17,7 @@ export default {
   plugins: [
     resolve(),
     postcss({
-      extract: 'assets/built/screen.css',
+      extract: resolvePath('assets/built/screen.css'),
       minimize: production,
       plugins: [
         postcssPresetEnv({ stage: 2 }),
