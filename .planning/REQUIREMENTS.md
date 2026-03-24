@@ -1,0 +1,104 @@
+# Requirements: General Purpose — Jess Holbrook's Personal Site
+
+**Defined:** 2026-03-23
+**Core Value:** A sophisticated, simple personal site that makes Jess's work easy to find and pleasant to read.
+
+## v1 Requirements
+
+Requirements for initial release. Each maps to roadmap phases.
+
+### Foundation
+
+- [ ] **FOUND-01**: Valid Ghost 6 theme scaffold passing gscan validation
+- [ ] **FOUND-02**: One-command deploy automation to general-purpose.ghost.io
+- [ ] **FOUND-03**: Sidebar navigation that collapses to mobile-friendly nav below breakpoint
+
+### Visual Identity
+
+- [ ] **VIS-01**: Warm color palette with cream/off-white background and terracotta accent color
+- [ ] **VIS-02**: CSS design tokens for palette, typography, and spacing
+- [ ] **VIS-03**: Custom serif web fonts for headings and body text
+- [ ] **VIS-04**: Dark mode toggle with appropriate color scheme
+
+### Homepage
+
+- [ ] **HOME-01**: Bold serif hero intro statement ("Jess writes about people, AI, and people + AI")
+- [ ] **HOME-02**: Section links/previews below hero
+
+### Blog
+
+- [ ] **BLOG-01**: Reverse-chronological post listing on blog page
+- [ ] **BLOG-02**: Individual post template with date and reading time
+- [ ] **BLOG-03**: Post card partial (thumbnail, title, excerpt, date)
+
+### Section Pages
+
+- [ ] **SECT-01**: Publications page with manually curated academic papers
+- [ ] **SECT-02**: Products page with simple cards (image, name, description, link)
+- [ ] **SECT-03**: Experiments page with cards linking to external projects
+
+### About
+
+- [ ] **ABOUT-01**: Dedicated about page with bio, photo, and background
+
+### Infrastructure
+
+- [ ] **INFRA-01**: Proper asset paths via {{asset}} helper
+- [ ] **INFRA-02**: Error page (error.hbs)
+- [ ] **INFRA-03**: Active navigation state for current section
+
+## v2 Requirements
+
+Deferred to future release. Tracked but not in current roadmap.
+
+### Enhancements
+
+- **ENH-01**: Custom settings in Ghost Admin (accent color, font choice toggles)
+- **ENH-02**: Tag filtering on blog page
+- **ENH-03**: Search across blog posts
+- **ENH-04**: Sticky sidebar on scroll
+- **ENH-05**: Live Google Scholar integration for publications
+
+## Out of Scope
+
+| Feature | Reason |
+|---------|--------|
+| Newsletter/subscription | Not needed for launch; Ghost Portal makes it easy to add later |
+| Comments system | Not a priority for personal site |
+| Mobile app / PWA | Web only |
+| Scholar API integration | Manual curation simpler for v1 |
+
+## Traceability
+
+Which phases cover which requirements. Updated during roadmap creation.
+
+| Requirement | Phase | Status |
+|-------------|-------|--------|
+| FOUND-01 | — | Pending |
+| FOUND-02 | — | Pending |
+| FOUND-03 | — | Pending |
+| VIS-01 | — | Pending |
+| VIS-02 | — | Pending |
+| VIS-03 | — | Pending |
+| VIS-04 | — | Pending |
+| HOME-01 | — | Pending |
+| HOME-02 | — | Pending |
+| BLOG-01 | — | Pending |
+| BLOG-02 | — | Pending |
+| BLOG-03 | — | Pending |
+| SECT-01 | — | Pending |
+| SECT-02 | — | Pending |
+| SECT-03 | — | Pending |
+| ABOUT-01 | — | Pending |
+| INFRA-01 | — | Pending |
+| INFRA-02 | — | Pending |
+| INFRA-03 | — | Pending |
+
+**Coverage:**
+- v1 requirements: 19 total
+- Mapped to phases: 0
+- Unmapped: 19 ⚠️
+
+---
+*Requirements defined: 2026-03-23*
+*Last updated: 2026-03-23 after initial definition*
