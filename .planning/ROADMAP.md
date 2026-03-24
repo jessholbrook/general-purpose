@@ -43,7 +43,10 @@ Plans:
   3. The sidebar navigation is visible as a persistent column on desktop and collapses to a mobile-friendly nav below the breakpoint
   4. A dark mode toggle switches the site to an appropriate dark color scheme
   5. CSS design tokens (custom properties) define all palette, type, and spacing values — no hardcoded hex values in templates
-**Plans**: TBD
+**Plans:** 2 plans
+Plans:
+- [ ] 02-01-PLAN.md — Design tokens, Google Fonts, and responsive sidebar layout
+- [ ] 02-02-PLAN.md — Dark mode toggle with FOUC prevention and localStorage persistence
 
 ### Phase 3: Homepage and Blog
 **Goal**: The two primary content surfaces — the bold hero homepage and the full blog listing with individual post pages — are live and reflect the site's personality.
@@ -76,6 +79,6 @@ Phases execute in numeric order: 1 → 2 → 3 → 4
 | Phase | Plans Complete | Status | Completed |
 |-------|----------------|--------|-----------|
 | 1. Foundation | 0/1 | Complete    | 2026-03-24 |
-| 2. Visual Identity | 0/TBD | Not started | - |
+| 2. Visual Identity | 0/2 | Not started | - |
 | 3. Homepage and Blog | 0/TBD | Not started | - |
 | 4. Section Pages and Polish | 0/TBD | Not started | - |
