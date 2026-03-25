@@ -33,9 +33,9 @@ Requirements for initial release. Each maps to roadmap phases.
 
 ### Section Pages
 
-- [ ] **SECT-01**: Publications page with manually curated academic papers
-- [ ] **SECT-02**: Products page with simple cards (image, name, description, link)
-- [ ] **SECT-03**: Experiments page with cards linking to external projects
+- [x] **SECT-01**: Publications page with manually curated academic papers
+- [x] **SECT-02**: Products page with simple cards (image, name, description, link)
+- [x] **SECT-03**: Experiments page with cards linking to external projects
 
 ### About
 
@@ -88,9 +88,9 @@ Which phases cover which requirements. Updated during roadmap creation.
 | BLOG-01 | Phase 3 | Complete |
 | BLOG-02 | Phase 3 | Complete |
 | BLOG-03 | Phase 3 | Complete |
-| SECT-01 | Phase 4 | Pending |
-| SECT-02 | Phase 4 | Pending |
-| SECT-03 | Phase 4 | Pending |
+| SECT-01 | Phase 4 | Complete |
+| SECT-02 | Phase 4 | Complete |
+| SECT-03 | Phase 4 | Complete |
 | ABOUT-01 | Phase 4 | Pending |
 | INFRA-03 | Phase 4 | Pending |
 
