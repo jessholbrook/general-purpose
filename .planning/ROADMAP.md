@@ -72,7 +72,10 @@ Plans:
   3. The Experiments page shows cards that link out to external web experiments
   4. The About page contains Jess's bio, photo, and background
   5. The sidebar navigation highlights the current section when visiting any page on the site
-**Plans**: TBD
+**Plans:** 2 plans
+Plans:
+- [ ] 04-01-PLAN.md — Section page templates (Publications, Products, Experiments) with card/list CSS
+- [ ] 04-02-PLAN.md — About page template with active nav verification and final gscan pass
 
 ## Progress
 
@@ -84,4 +87,4 @@ Phases execute in numeric order: 1 → 2 → 3 → 4
 | 1. Foundation | 0/1 | Complete    | 2026-03-24 |
 | 2. Visual Identity | 2/2 | Complete    | 2026-03-25 |
 | 3. Homepage and Blog | 2/2 | Complete    | 2026-03-25 |
-| 4. Section Pages and Polish | 0/TBD | Not started | - |
+| 4. Section Pages and Polish | 0/2 | Not started | - |
