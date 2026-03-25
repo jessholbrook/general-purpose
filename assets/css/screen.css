@@ -227,6 +227,63 @@ p {
     margin: 0;
 }
 
+/* Homepage Hero */
+.home-hero {
+    padding-top: var(--space-16);
+    margin-bottom: var(--space-12);
+    max-width: var(--content-max);
+}
+
+.hero-title {
+    font-family: var(--font-heading);
+    font-size: 4rem;
+    font-weight: 600;
+    line-height: 1.2;
+    color: var(--color-text);
+}
+
+/* Homepage Section Previews */
+.home-sections {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: var(--space-6);
+}
+
+.section-preview {
+    padding-bottom: var(--space-6);
+    border-bottom: 1px solid var(--color-border);
+}
+
+.section-preview:last-child {
+    border-bottom: none;
+}
+
+.section-title {
+    font-size: 2rem;
+    margin-bottom: var(--space-1);
+}
+
+.section-title a {
+    color: var(--color-text);
+    text-decoration: none;
+}
+
+.section-title a:hover {
+    text-decoration: underline;
+}
+
+.section-desc {
+    color: var(--color-muted);
+    font-size: 1.5rem;
+    margin-bottom: 0;
+}
+
+@media (max-width: 768px) {
+    .hero-title {
+        font-size: 2.8rem;
+    }
+}
+
 /* Dark Mode Overrides */
 [data-theme="dark"] {
     --color-bg: #1C1917;
