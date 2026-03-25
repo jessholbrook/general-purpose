@@ -1,16 +1,12 @@
 {{!< default}}
 
-<main class="site-main">
+<div class="blog-listing">
+    <h1 class="blog-title">Blog</h1>
     <div class="post-feed">
         {{#foreach posts}}
-        <article class="post-card">
-            <h2 class="post-card-title">
-                <a href="{{url}}">{{title}}</a>
-            </h2>
-            <p class="post-card-excerpt">{{excerpt}}</p>
-        </article>
+            {{> post-card}}
         {{/foreach}}
     </div>
 
     {{pagination}}
-</main>
+</div>
