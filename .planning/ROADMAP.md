@@ -15,7 +15,7 @@ Decimal phases appear between their surrounding integers in numeric order.
 - [x] **Phase 1: Foundation** - Valid Ghost 6 theme scaffold with automated deploy to general-purpose.ghost.io (completed 2026-03-24)
 - [x] **Phase 2: Visual Identity** - Complete design system (palette, typography, sidebar layout) applied to base template (completed 2026-03-25)
 - [x] **Phase 3: Homepage and Blog** - Bold hero homepage and reverse-chronological blog with post cards (completed 2026-03-25)
-- [ ] **Phase 4: Section Pages and Polish** - Publications, Products, Experiments, About pages with active nav states
+- [x] **Phase 4: Section Pages and Polish** - Publications, Products, Experiments, About pages with active nav states (completed 2026-03-25)
 
 ## Phase Details
 
@@ -72,7 +72,7 @@ Plans:
   3. The Experiments page shows cards that link out to external web experiments
   4. The About page contains Jess's bio, photo, and background
   5. The sidebar navigation highlights the current section when visiting any page on the site
-**Plans:** 2 plans
+**Plans:** 2/2 plans complete
 Plans:
 - [ ] 04-01-PLAN.md — Section page templates (Publications, Products, Experiments) with card/list CSS
 - [ ] 04-02-PLAN.md — About page template with active nav verification and final gscan pass
@@ -87,4 +87,4 @@ Phases execute in numeric order: 1 → 2 → 3 → 4
 | 1. Foundation | 0/1 | Complete    | 2026-03-24 |
 | 2. Visual Identity | 2/2 | Complete    | 2026-03-25 |
 | 3. Homepage and Blog | 2/2 | Complete    | 2026-03-25 |
-| 4. Section Pages and Polish | 0/2 | Not started | - |
+| 4. Section Pages and Polish | 0/2 | Complete    | 2026-03-25 |
