@@ -39,13 +39,13 @@ Requirements for initial release. Each maps to roadmap phases.
 
 ### About
 
-- [ ] **ABOUT-01**: Dedicated about page with bio, photo, and background
+- [x] **ABOUT-01**: Dedicated about page with bio, photo, and background
 
 ### Infrastructure
 
 - [x] **INFRA-01**: Proper asset paths via {{asset}} helper
 - [x] **INFRA-02**: Error page (error.hbs)
-- [ ] **INFRA-03**: Active navigation state for current section
+- [x] **INFRA-03**: Active navigation state for current section
 
 ## v2 Requirements
 
@@ -91,8 +91,8 @@ Which phases cover which requirements. Updated during roadmap creation.
 | SECT-01 | Phase 4 | Complete |
 | SECT-02 | Phase 4 | Complete |
 | SECT-03 | Phase 4 | Complete |
-| ABOUT-01 | Phase 4 | Pending |
-| INFRA-03 | Phase 4 | Pending |
+| ABOUT-01 | Phase 4 | Complete |
+| INFRA-03 | Phase 4 | Complete |
 
 **Coverage:**
 - v1 requirements: 19 total

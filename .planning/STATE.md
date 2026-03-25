@@ -3,15 +3,15 @@ gsd_state_version: 1.0
 milestone: v1.0
 milestone_name: milestone
 status: completed
-stopped_at: Completed 04-01-PLAN.md
-last_updated: "2026-03-25T03:36:58.608Z"
-last_activity: 2026-03-25 — Completed 03-02 blog listing and post templates
+stopped_at: Completed 04-02-PLAN.md
+last_updated: "2026-03-25T03:39:30.502Z"
+last_activity: 2026-03-25 — Completed 04-01 section page templates
 progress:
   total_phases: 4
-  completed_phases: 3
+  completed_phases: 4
   total_plans: 7
-  completed_plans: 6
-  percent: 100
+  completed_plans: 7
+  percent: 86
 ---
 
 # Project State
@@ -56,6 +56,7 @@ Progress: [█████████░] 86%
 | Phase 03 P01 | 1min | 2 tasks | 3 files |
 | Phase 03 P02 | 1min | 2 tasks | 4 files |
 | Phase 04 P01 | 1min | 2 tasks | 4 files |
+| Phase 04 P02 | 1min | 1 tasks | 2 files |
 
 ## Accumulated Context
 
@@ -78,6 +79,7 @@ Recent decisions affecting current work:
 - [Phase 03]: routes.yaml kept at project root for separate Ghost Admin upload, not bundled in theme zip
 - [Phase 03]: CSS :has() selector for post card conditional grid layout
 - [Phase 04]: 860px max-width for card grid pages (wider than content-max to fit 2-column layout)
+- [Phase 04]: About page uses Ghost feature_image for photo (no hardcoded paths)
 
 ### Pending Todos
 
@@ -90,6 +92,6 @@ None yet.
 
 ## Session Continuity
 
-Last session: 2026-03-25T03:36:58.605Z
-Stopped at: Completed 04-01-PLAN.md
+Last session: 2026-03-25T03:39:30.499Z
+Stopped at: Completed 04-02-PLAN.md
 Resume file: None
