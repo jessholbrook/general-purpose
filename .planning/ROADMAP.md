@@ -14,7 +14,7 @@ Decimal phases appear between their surrounding integers in numeric order.
 
 - [x] **Phase 1: Foundation** - Valid Ghost 6 theme scaffold with automated deploy to general-purpose.ghost.io (completed 2026-03-24)
 - [x] **Phase 2: Visual Identity** - Complete design system (palette, typography, sidebar layout) applied to base template (completed 2026-03-25)
-- [ ] **Phase 3: Homepage and Blog** - Bold hero homepage and reverse-chronological blog with post cards
+- [x] **Phase 3: Homepage and Blog** - Bold hero homepage and reverse-chronological blog with post cards (completed 2026-03-25)
 - [ ] **Phase 4: Section Pages and Polish** - Publications, Products, Experiments, About pages with active nav states
 
 ## Phase Details
@@ -57,7 +57,7 @@ Plans:
   2. The blog listing at `/blog/` shows posts in reverse chronological order as scannable cards with thumbnail, title, excerpt, and date
   3. Individual post pages show the full article content with date and reading time displayed
   4. The homepage is served from `home.hbs` at `/` — not a default Ghost post listing
-**Plans:** 2 plans
+**Plans:** 2/2 plans complete
 Plans:
 - [ ] 03-01-PLAN.md — Bold serif hero homepage with section previews and routes.yaml
 - [ ] 03-02-PLAN.md — Blog listing with post card partial and post page with reading time
@@ -83,5 +83,5 @@ Phases execute in numeric order: 1 → 2 → 3 → 4
 |-------|----------------|--------|-----------|
 | 1. Foundation | 0/1 | Complete    | 2026-03-24 |
 | 2. Visual Identity | 2/2 | Complete    | 2026-03-25 |
-| 3. Homepage and Blog | 0/2 | Not started | - |
+| 3. Homepage and Blog | 2/2 | Complete   | 2026-03-25 |
 | 4. Section Pages and Polish | 0/TBD | Not started | - |

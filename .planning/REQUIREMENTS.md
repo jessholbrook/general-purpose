@@ -27,9 +27,9 @@ Requirements for initial release. Each maps to roadmap phases.
 
 ### Blog
 
-- [ ] **BLOG-01**: Reverse-chronological post listing on blog page
-- [ ] **BLOG-02**: Individual post template with date and reading time
-- [ ] **BLOG-03**: Post card partial (thumbnail, title, excerpt, date)
+- [x] **BLOG-01**: Reverse-chronological post listing on blog page
+- [x] **BLOG-02**: Individual post template with date and reading time
+- [x] **BLOG-03**: Post card partial (thumbnail, title, excerpt, date)
 
 ### Section Pages
 
@@ -85,9 +85,9 @@ Which phases cover which requirements. Updated during roadmap creation.
 | FOUND-03 | Phase 2 | Complete |
 | HOME-01 | Phase 3 | Complete |
 | HOME-02 | Phase 3 | Complete |
-| BLOG-01 | Phase 3 | Pending |
-| BLOG-02 | Phase 3 | Pending |
-| BLOG-03 | Phase 3 | Pending |
+| BLOG-01 | Phase 3 | Complete |
+| BLOG-02 | Phase 3 | Complete |
+| BLOG-03 | Phase 3 | Complete |
 | SECT-01 | Phase 4 | Pending |
 | SECT-02 | Phase 4 | Pending |
 | SECT-03 | Phase 4 | Pending |
