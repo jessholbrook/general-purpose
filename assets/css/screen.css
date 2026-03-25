@@ -599,3 +599,27 @@ p {
         grid-template-columns: 1fr;
     }
 }
+
+/* About Page */
+.about-page {
+    max-width: var(--content-max);
+}
+
+.about-photo {
+    margin-bottom: var(--space-8);
+}
+
+.about-photo img {
+    width: 100%;
+    max-width: 320px;
+    height: auto;
+    border-radius: 4px;
+}
+
+.about-content {
+    /* Inherits base typography */
+}
+
+.about-content p {
+    margin-bottom: var(--space-4);
+}

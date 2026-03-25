@@ -1,0 +1,14 @@
+{{!< default}}
+<main class="site-main">
+    <div class="about-page">
+        {{#if feature_image}}
+        <div class="about-photo">
+            <img src="{{feature_image}}" alt="{{feature_image_alt}}">
+        </div>
+        {{/if}}
+        <div class="about-content">
+            <h1 class="page-title">{{title}}</h1>
+            {{content}}
+        </div>
+    </div>
+</main>
