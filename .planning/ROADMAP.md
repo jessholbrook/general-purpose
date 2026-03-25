@@ -57,7 +57,10 @@ Plans:
   2. The blog listing at `/blog/` shows posts in reverse chronological order as scannable cards with thumbnail, title, excerpt, and date
   3. Individual post pages show the full article content with date and reading time displayed
   4. The homepage is served from `home.hbs` at `/` — not a default Ghost post listing
-**Plans**: TBD
+**Plans:** 2 plans
+Plans:
+- [ ] 03-01-PLAN.md — Bold serif hero homepage with section previews and routes.yaml
+- [ ] 03-02-PLAN.md — Blog listing with post card partial and post page with reading time
 
 ### Phase 4: Section Pages and Polish
 **Goal**: All curated section pages (Publications, Products, Experiments, About) are live and the site is ready for launch — with active navigation states and all templates passing a final gscan clean pass.
@@ -80,5 +83,5 @@ Phases execute in numeric order: 1 → 2 → 3 → 4
 |-------|----------------|--------|-----------|
 | 1. Foundation | 0/1 | Complete    | 2026-03-24 |
 | 2. Visual Identity | 2/2 | Complete    | 2026-03-25 |
-| 3. Homepage and Blog | 0/TBD | Not started | - |
+| 3. Homepage and Blog | 0/2 | Not started | - |
 | 4. Section Pages and Polish | 0/TBD | Not started | - |
