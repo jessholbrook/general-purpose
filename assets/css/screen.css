@@ -484,3 +484,118 @@ p {
 [data-theme="dark"] .theme-toggle .icon-sun {
     display: inline;
 }
+
+/* Section Pages — Common */
+.page-intro {
+    color: var(--color-muted);
+    font-size: 1.5rem;
+    margin-bottom: var(--space-8);
+}
+
+/* Publications */
+.publications-page {
+    max-width: var(--content-max);
+}
+
+.publications-list {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: var(--space-6);
+}
+
+.publication-item {
+    padding-bottom: var(--space-6);
+    border-bottom: 1px solid var(--color-border);
+}
+
+.publication-item:last-child {
+    border-bottom: none;
+    padding-bottom: 0;
+}
+
+.publication-title {
+    font-family: var(--font-heading);
+    font-size: 1.8rem;
+    font-weight: 600;
+    display: block;
+    margin-bottom: var(--space-1);
+}
+
+.publication-meta {
+    font-size: 1.3rem;
+    color: var(--color-muted);
+}
+
+/* Card Grid — Products & Experiments */
+.products-page,
+.experiments-page {
+    max-width: 860px;
+}
+
+.card-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: var(--space-8);
+}
+
+.product-card,
+.experiment-card {
+    border: 1px solid var(--color-border);
+    border-radius: 4px;
+    overflow: hidden;
+    transition: box-shadow 150ms ease;
+}
+
+.product-card:hover,
+.experiment-card:hover {
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+}
+
+.product-card-image,
+.experiment-card-image {
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
+    display: block;
+}
+
+.product-card-body,
+.experiment-card-body {
+    padding: var(--space-4);
+}
+
+.product-card-name,
+.experiment-card-name {
+    font-size: 1.8rem;
+    margin-bottom: var(--space-1);
+}
+
+.product-card-name a,
+.experiment-card-name a {
+    color: var(--color-text);
+    text-decoration: none;
+}
+
+.product-card-name a:hover,
+.experiment-card-name a:hover {
+    text-decoration: underline;
+}
+
+.product-card-desc,
+.experiment-card-desc {
+    font-size: 1.4rem;
+    color: var(--color-muted);
+    margin-bottom: 0;
+}
+
+.product-card-image-link,
+.experiment-card-image-link {
+    display: block;
+}
+
+@media (max-width: 768px) {
+    .card-grid {
+        grid-template-columns: 1fr;
+    }
+}
