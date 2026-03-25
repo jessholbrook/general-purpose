@@ -2,15 +2,15 @@
 gsd_state_version: 1.0
 milestone: v1.0
 milestone_name: milestone
-status: completed
-stopped_at: Completed 02-02-PLAN.md
-last_updated: "2026-03-25T02:29:02.756Z"
+status: in_progress
+stopped_at: Completed 03-01-PLAN.md
+last_updated: "2026-03-25T02:53:24.593Z"
 last_activity: 2026-03-24 — Completed 02-02 dark mode toggle
 progress:
   total_phases: 4
   completed_phases: 2
-  total_plans: 3
-  completed_plans: 3
+  total_plans: 5
+  completed_plans: 4
   percent: 100
 ---
 
@@ -26,11 +26,11 @@ See: .planning/PROJECT.md (updated 2026-03-23)
 ## Current Position
 
 Phase: 3 of 4 (Homepage and Blog)
-Plan: 0 of TBD in current phase
-Status: Phase 2 complete, ready for Phase 3
-Last activity: 2026-03-24 — Completed 02-02 dark mode toggle
+Plan: 1 of 2 in current phase
+Status: Completed 03-01 homepage hero and routing
+Last activity: 2026-03-24 — Completed 03-01 homepage hero and routing
 
-Progress: [██████████] 100%
+Progress: [████████░░] 80%
 
 ## Performance Metrics
 
@@ -53,6 +53,7 @@ Progress: [██████████] 100%
 | Phase 01 P01 | 4min | 3 tasks | 13 files |
 | Phase 02 P01 | 2min | 2 tasks | 3 files |
 | Phase 02 P02 | 3min | 2 tasks | 3 files |
+| Phase 03 P01 | 1min | 2 tasks | 3 files |
 
 ## Accumulated Context
 
@@ -72,6 +73,7 @@ Recent decisions affecting current work:
 - [Phase 02]: Inline SVG social icons (no external icon fonts)
 - [Phase 02]: 4px spacing scale with named tokens (space-1 through space-16)
 - [Phase 02]: Warm charcoal dark palette (#1C1917) for dark mode; inline FOUC prevention script before stylesheet
+- [Phase 03]: routes.yaml kept at project root for separate Ghost Admin upload, not bundled in theme zip
 
 ### Pending Todos
 
@@ -84,6 +86,6 @@ None yet.
 
 ## Session Continuity
 
-Last session: 2026-03-25T02:22:05.478Z
-Stopped at: Completed 02-02-PLAN.md
+Last session: 2026-03-25T02:53:24.590Z
+Stopped at: Completed 03-01-PLAN.md
 Resume file: None

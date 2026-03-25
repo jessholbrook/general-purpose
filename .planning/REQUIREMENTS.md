@@ -22,8 +22,8 @@ Requirements for initial release. Each maps to roadmap phases.
 
 ### Homepage
 
-- [ ] **HOME-01**: Bold serif hero intro statement ("Jess writes about people, AI, and people + AI")
-- [ ] **HOME-02**: Section links/previews below hero
+- [x] **HOME-01**: Bold serif hero intro statement ("Jess writes about people, AI, and people + AI")
+- [x] **HOME-02**: Section links/previews below hero
 
 ### Blog
 
@@ -83,8 +83,8 @@ Which phases cover which requirements. Updated during roadmap creation.
 | VIS-03 | Phase 2 | Complete |
 | VIS-04 | Phase 2 | Complete |
 | FOUND-03 | Phase 2 | Complete |
-| HOME-01 | Phase 3 | Pending |
-| HOME-02 | Phase 3 | Pending |
+| HOME-01 | Phase 3 | Complete |
+| HOME-02 | Phase 3 | Complete |
 | BLOG-01 | Phase 3 | Pending |
 | BLOG-02 | Phase 3 | Pending |
 | BLOG-03 | Phase 3 | Pending |
