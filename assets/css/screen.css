@@ -226,43 +226,6 @@ p {
     color: var(--color-text);
 }
 
-/* Homepage Section Previews */
-.home-sections {
-    display: grid;
-    grid-template-columns: 1fr;
-    gap: var(--space-6);
-}
-
-.section-preview {
-    padding-bottom: var(--space-6);
-    border-bottom: 1px solid var(--color-border);
-}
-
-.section-preview:last-child {
-    border-bottom: none;
-}
-
-.section-title {
-    font-size: 2rem;
-    margin-bottom: var(--space-1);
-}
-
-.section-title a {
-    color: var(--color-text);
-    text-decoration: none;
-}
-
-.section-title a:hover {
-    text-decoration: underline;
-    text-decoration-color: var(--color-highlight);
-    text-decoration-thickness: 2px;
-}
-
-.section-desc {
-    color: var(--color-muted);
-    font-size: 1.6rem;
-    margin-bottom: 0;
-}
 
 @media (max-width: 768px) {
     .hero-title {
