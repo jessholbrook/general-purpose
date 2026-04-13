@@ -1,10 +1,17 @@
 {{!< default}}
 
 <div class="blog-listing">
-    <h1 class="blog-title">Blog</h1>
-    <div class="post-feed">
+    <h1 class="page-heading">Writing</h1>
+    <div class="writing-feed">
         {{#foreach posts}}
-            {{> post-card}}
+        <div class="writing-item">
+            <h2 class="writing-item-title">
+                <a href="{{url}}">{{title}}</a>
+            </h2>
+            <time class="writing-item-date" datetime="{{date format='YYYY-MM-DD'}}">
+                {{date format="MMM D, YYYY"}}
+            </time>
+        </div>
         {{/foreach}}
     </div>
 

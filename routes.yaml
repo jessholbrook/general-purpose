@@ -2,6 +2,6 @@ routes:
   /: home
 
 collections:
-  /blog/:
-    permalink: /blog/{slug}/
+  /writing/:
+    permalink: /writing/{slug}/
     template: index
